@@ -1,4 +1,4 @@
-num = int(input())
+num = 10
 flag = False
 if num > 1:
     for i in range(2, num):
