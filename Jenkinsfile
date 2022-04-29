@@ -4,6 +4,7 @@ pipeline {
         stage ('Build'){
             steps{
                 echo 'Building...'
+                echo 'Abhiram'
                 bat 'python lab.py'
             }
         }
